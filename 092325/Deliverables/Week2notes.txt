@@ -1,0 +1,29 @@
+#2 session
+class 7 9/23/2025
+
+Topic= command line, file management, and GitHub
+
+goal for today= upload sample files from your computer to a GitHub repo, using Git Bash (windows) or Terminal (Mac/Linux)
+
+
+
+notes:
+Command Lines to remember
+pwd
+ls
+mkdir (directory name)
+cd (directory name)
+rm [to remove]
+
+
+
+GitHub new repositiory on the Command line
+
+
+ echo "# 9.23.25_class7_1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/JRobertson7/9.23.25_class7_1.git
+git push -u origin main
